@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:TabbedViewNavigatorApplication xmlns:fx="http://ns.adobe.com/mxml/2009"
+                            xmlns:s="library://ns.adobe.com/flex/spark"
+							xmlns:rl2="robotlegs.bender.mxml.*"
+							xmlns:mvcs="robotlegs.bender.bundles.mvcs.*"
+						    xmlns:gusmp="org.gusmp.config.*"
+							splashScreenScaleMode ="zoom"
+							splashScreenImage="@Embed('../icons/splash/splash.png') ">
+	
+	<s:ViewNavigator label="Home" width="100%" height="100%" firstView="org.gusmp.views.MainView" />
+	<s:ViewNavigator label="Phrasal Verbs" width="100%" height="100%" firstView="org.gusmp.views.PhrasalVerbView" />
+	<s:ViewNavigator label="Word Formation" width="100%" height="100%" firstView="org.gusmp.views.WordFormationView" />
+	<s:ViewNavigator label="Settings" width="100%" height="100%" firstView="org.gusmp.views.SettingsView" />
+	
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+		<rl2:ContextBuilderTag>
+			<mvcs:MVCSBundle/>
+			<gusmp:AppConfig />
+		</rl2:ContextBuilderTag>
+		
+	</fx:Declarations>
+	
+	<fx:Style source="spark_cobalt.css" />
+	
+	<!-- new to AIR? please read *carefully* the readme.txt files! -->
+	
+</s:TabbedViewNavigatorApplication>
