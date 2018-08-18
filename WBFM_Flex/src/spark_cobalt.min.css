@@ -1,0 +1,7 @@
+@namespace s "library://ns.adobe.com/flex/spark";@namespace mx "library://ns.adobe.com/flex/mx";global{chrome-color:#294867;color:#CEE7F4;content-background-color:#39628C;symbol-color:#000000;roll-over-color:#355D89;selection-color:#294867;focus-color:#333300;accent-color:#6589AD;}
+s|TabbedViewNavigatorApplication,s|View{background-color:#294867;}
+s|Label.title{font-size:15;}
+s|Label.appTitle{font-size:60;font-weight:bold;}
+s|TextArea{contentBackgroundColor:#39628c;}
+s|Button{}
+

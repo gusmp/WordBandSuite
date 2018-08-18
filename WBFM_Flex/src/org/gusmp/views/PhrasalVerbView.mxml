@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:View xmlns:fx="http://ns.adobe.com/mxml/2009" 
+        xmlns:s="library://ns.adobe.com/flex/spark" 
+		title="Phrasal Verbs">
+	
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	
+	<s:Scroller width="100%" height="100%">
+		
+		<s:VGroup width="100%" height="100%" horizontalAlign="center">
+			
+			<s:Label paddingTop="20" text=""  />
+			
+			<s:TextArea
+				id="meaningTa"
+				height="30%"
+				width="90%"
+				editable="false"
+				text="When a child speaks to someone when they have been told off" />
+			
+			<s:TextArea
+				id="exampleTa"
+				height="30%"
+				width="90%"
+				editable="false"
+				text="He got in trouble at school for answering the teacher ... during the lesson" />
+			
+			<s:TextInput id="answerLb" />
+			
+			<s:HGroup width="100%" height="100%" horizontalAlign="center">
+				
+				<s:Button id="checkBt" label="Check!" />
+				<s:Button id="continueBt" label="Continue" />
+				<s:Button id="showAnswerBt" label="I give up" />
+				
+			</s:HGroup>
+			
+		</s:VGroup>			
+		
+	</s:Scroller>
+	
+</s:View>

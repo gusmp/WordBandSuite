@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:View xmlns:fx="http://ns.adobe.com/mxml/2009" 
+        xmlns:s="library://ns.adobe.com/flex/spark" 
+		title="Word Formation">
+	
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	
+	<s:Scroller width="100%" height="100%" measuredSizeIncludesScrollBars="true" >
+		
+		
+		<s:VGroup width="100%" height="100%" horizontalAlign="center">
+			
+			<s:Label id="wordLb" 
+						 styleName="title"
+						 paddingTop="20"
+						 fontSize="25"
+						 text="Word: REPRESENT" />
+			
+			<s:TextArea
+				id="sentence1Id"
+				height="110%"
+				width="95%"
+				editable="false"
+				fontSize="22"
+				text="You can't reallly draw any conclusions with such an ... sample of people. They are not the right age or ocuppation for our purposes."  />
+			
+			<s:TextInput id="answer1Id"/>
+			
+			<s:TextArea
+				id="sentence2Id"
+				height="110%"
+				width="95%"
+				fontSize="22"
+				editable="false"
+				text="The painting is said to be a ... of jealousy." />
+			
+			<s:TextInput id="answer2Id" />
+			
+			<s:TextArea
+				id="sentence3Id"
+				height="110%"
+				width="95%"
+				fontSize="22"
+				editable="false"
+				text="He works as a ... for a major cosmetics company" />
+			
+			<s:TextInput id="answer3Id" />
+			
+			<s:HGroup horizontalAlign="center">
+					
+					<s:Button id="checkBt" label="Check!" />
+					<s:Button id="continueBt" label="Continue" />
+					<s:Button id="showAnswerBt" label="I give up" />
+					
+			</s:HGroup>
+			
+		</s:VGroup>
+		
+	</s:Scroller>
+	
+</s:View>
