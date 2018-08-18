@@ -1,5 +1,5 @@
-﻿Word Bank Mobile (Apache Flex edition)
-======================================
+﻿Word Bank for Mobile (Apache Flex edition)
+==========================================
 
 App for enhancing:
 
