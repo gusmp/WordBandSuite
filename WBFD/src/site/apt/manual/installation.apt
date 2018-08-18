@@ -1,0 +1,56 @@
+
+Installation
+
+* Requirements
+
+  WBFD requires Java 1.6 or above. You can download it for free from {{{http://www.oracle.com/technetwork/java/index.html} Oracle web site}}
+
+* Installation
+
+  WBFD does not require any specials steps for installing it. Extract the zip and verify there are the following files:
+  
+*-----------------------+----------------------------------------------------------------------------------+
+| Folder <libLinux32>   | Library for Linux 32 bits systems (org.eclipse.swt.gtk.linux.x86-3.8.jar)        |
+*-----------------------+----------------------------------------------------------------------------------+
+| Folder <libLinux64>   | Library for Linux 64 bits systems (org.eclipse.swt.gtk.linux.x86_64-3.8.jar)     |
+*-----------------------+----------------------------------------------------------------------------------+
+| Folder <libWin32>     | Library for Windows 32 bits systems (org.eclipse.swt.win32.win32.x86-3.8.jar)    |
+*-----------------------+----------------------------------------------------------------------------------+
+| Folder <libWin64>     | Library for Windows 64 bits systems (org.eclipse.swt.win32.win32.x86_64-3.8.jar) |
+*-----------------------+----------------------------------------------------------------------------------+
+| Folder <common>       | Contains: hsqldb-2.2.9.jar and org.eclipse.jface-3.8.0.v20120521-2329.jar        |
+*-----------------------+----------------------------------------------------------------------------------+
+| runWBFDforLinux32.sh  | File to run WBFD in Linux 32 bits systems                                        |
+*-----------------------+----------------------------------------------------------------------------------+
+| runWBFDforLinux64.sh  | File to run WBFD in Linux 64 bits systems                                        |
+*-----------------------+----------------------------------------------------------------------------------+
+| runWBFDforWin32.bat   | File to run WBFD in Windows 32 bits systems                                      |
+*-----------------------+----------------------------------------------------------------------------------+
+| runWBFDforWin64.bat   | File to run WBFD in Windows 64 bits systems                                      |
+*-----------------------+----------------------------------------------------------------------------------+
+| wbfd.data             | (optional *) Database (by default empty)                                         |
+*-----------------------+----------------------------------------------------------------------------------+
+| wbfd.properties       | (optional *) Database suport files                                               |
+*-----------------------+----------------------------------------------------------------------------------+
+| wbfd.script           | (optional *) Database suport files                                               |
+*-----------------------+----------------------------------------------------------------------------------+
+| wbfd.jar              | The application                                                                  |
+*-----------------------+----------------------------------------------------------------------------------+ 
+
+  <<NOTE>> No all these files are required. Only those for your platform.
+
+  <<NOTE>> * If these files do not exist, will be created by the application.
+  
+  If for any reason any file is missing, you can download from {{{http://www.github.com/gusmp/wbfd/package}here}}.
+  
+* Installation on Java 1.5 or below
+
+  Our of the box WBFD does not run on Java 1.5 or below. However, the code is compile to support this version. The problem comes with the dependencies (hsqldb and swt/jface) which require higher versions. If you cannot update your Java version (highly recommended) you must do:
+  
+    * Download hsqldb and swf version with support for your Java version
+
+    * Modify the laucher files (sh / bat). These files use the * wildcard which was added in Java 1.6. You have to add all dependencies one after another. In Windows 32 bits the lauchcher would be like:
+
+*-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|java -cp "wbfd.jar;libWin32/org.eclipse.swt.win32.win32.x86-X.Y.jar;common/hsqldb-X.Y.Z.jar;common/org.eclipse.jface-X.Y.Z.vXX-YY.jar" org.wbfd.Wbfd |
+*-------------------------------------------------------------------------------------------------------------------------------------------------------------------+

@@ -1,0 +1,16 @@
+
+Running WBFD
+
+  WBFD supports the following systems:
+  
+    * Linux 32 bits
+	
+    * Linux 64 bits
+	
+    * Windows 32 bits
+	
+    * Windows 64 bits
+	
+  <<NOTE for Linux users>>. Add execution permission with <chmod +x runWBFDfor\<ARCHITECTURE\>>
+ 
+  For opening WBFD just execute the file runWBFDfor<ARCHITECTURE> according to your operative system.

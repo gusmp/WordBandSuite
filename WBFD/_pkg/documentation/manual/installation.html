@@ -1,0 +1,208 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>WBFD - </title>
+    <style type="text/css" media="all">
+      @import url("../css/maven-base.css");
+      @import url("../css/maven-theme.css");
+      @import url("../css/site.css");
+    </style>
+    <link rel="stylesheet" href="../css/print.css" type="text/css" media="print" />
+        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+      </head>
+  <body class="composite">
+    <div id="banner">
+                    <span id="bannerLeft">
+    
+            Word Bank for Desktop
+    
+            </span>
+                    <div class="clear">
+        <hr/>
+      </div>
+    </div>
+    <div id="breadcrumbs">
+          
+  
+
+  
+    
+            
+  
+    
+              <div class="xright">      
+  
+
+  
+    
+            
+  
+    
+             Last Published: 2012-11-24
+              &nbsp;| Version: 0.0.2
+            </div>
+      <div class="clear">
+        <hr/>
+      </div>
+    </div>
+    <div id="leftColumn">
+      <div id="navcolumn">
+           
+  
+
+  
+    
+            
+  
+    
+                   <h5>User guide</h5>
+            <ul>
+              
+    <li class="none">
+              <strong>Installation</strong>
+        </li>
+              
+    <li class="none">
+                    <a href="../manual/run.html">Run WBFD</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../manual/usage.html">Usage</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../manual/import.html">Import</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../manual/hit.html">Hits</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../manual/faq.html">FAQ</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../manual/changelog.html">Change log</a>
+          </li>
+          </ul>
+              <h5>Developer</h5>
+            <ul>
+              
+    <li class="none">
+                    <a href="../development/compile.html">Compile</a>
+          </li>
+          </ul>
+                                           <a href="http://maven.apache.org/" title="Built by Maven" class="poweredBy">
+            <img alt="Built by Maven" src="../images/logos/maven-feather.png"></img>
+          </a>
+                       
+  
+
+  
+    
+            
+  
+    
+        </div>
+    </div>
+    <div id="bodyColumn">
+      <div id="contentBox">
+        <div class="section"><h2>Installation</h2>
+<div class="section"><h3>Requirements</h3>
+<p>WBFD requires Java 1.6 or above. You can download it for free from <a href="http://www.oracle.com/technetwork/java/index.html" class="externalLink"> Oracle web site</a></p>
+</div>
+<div class="section"><h3>Installation</h3>
+<p>WBFD does not require any specials steps for installing it. Extract the zip and verify there are the following files:</p>
+<table class="bodyTable"><tbody><tr class="a"><td align="left">Folder <i>libLinux32</i></td>
+<td align="left">Library for Linux 32 bits systems (org.eclipse.swt.gtk.linux.x86-3.8.jar)</td>
+</tr>
+<tr class="b"><td align="left">Folder <i>libLinux64</i></td>
+<td align="left">Library for Linux 64 bits systems (org.eclipse.swt.gtk.linux.x86_64-3.8.jar)</td>
+</tr>
+<tr class="a"><td align="left">Folder <i>libWin32</i></td>
+<td align="left">Library for Windows 32 bits systems (org.eclipse.swt.win32.win32.x86-3.8.jar)</td>
+</tr>
+<tr class="b"><td align="left">Folder <i>libWin64</i></td>
+<td align="left">Library for Windows 64 bits systems (org.eclipse.swt.win32.win32.x86_64-3.8.jar)</td>
+</tr>
+<tr class="a"><td align="left">Folder <i>common</i></td>
+<td align="left">Contains: hsqldb-2.2.9.jar and org.eclipse.jface-3.8.0.v20120521-2329.jar</td>
+</tr>
+<tr class="b"><td align="left">runWBFDforLinux32.sh</td>
+<td align="left">File to run WBFD in Linux 32 bits systems</td>
+</tr>
+<tr class="a"><td align="left">runWBFDforLinux64.sh</td>
+<td align="left">File to run WBFD in Linux 64 bits systems</td>
+</tr>
+<tr class="b"><td align="left">runWBFDforWin32.bat</td>
+<td align="left">File to run WBFD in Windows 32 bits systems</td>
+</tr>
+<tr class="a"><td align="left">runWBFDforWin64.bat</td>
+<td align="left">File to run WBFD in Windows 64 bits systems</td>
+</tr>
+<tr class="b"><td align="left">wbfd.data</td>
+<td align="left">(optional *) Database (by default empty)</td>
+</tr>
+<tr class="a"><td align="left">wbfd.properties</td>
+<td align="left">(optional *) Database suport files</td>
+</tr>
+<tr class="b"><td align="left">wbfd.script</td>
+<td align="left">(optional *) Database suport files</td>
+</tr>
+<tr class="a"><td align="left">wbfd.jar</td>
+<td align="left">The application</td>
+</tr>
+</tbody>
+</table>
+<p><b>NOTE</b> No all these files are required. Only those for your platform.</p>
+<p><b>NOTE</b> * If these files do not exist, will be created by the application.</p>
+<p>If for any reason any file is missing, you can download from <a href="http://www.github.com/gusmp/wbfd/package" class="externalLink">here</a>.</p>
+</div>
+<div class="section"><h3>Installation on Java 1.5 or below</h3>
+<p>Our of the box WBFD does not run on Java 1.5 or below. However, the code is compile to support this version. The problem comes with the dependencies (hsqldb and swt/jface) which require higher versions. If you cannot update your Java version (highly recommended) you must do:</p>
+<ul><li>Download hsqldb and swf version with support for your Java version</li>
+<li>Modify the laucher files (sh / bat). These files use the * wildcard which was added in Java 1.6. You have to add all dependencies one after another. In Windows 32 bits the lauchcher would be like:<table class="bodyTable"><tbody><tr class="b"><td align="left">java -cp &quot;wbfd.jar;libWin32/org.eclipse.swt.win32.win32.x86-X.Y.jar;common/hsqldb-X.Y.Z.jar;common/org.eclipse.jface-X.Y.Z.vXX-YY.jar&quot; org.wbfd.Wbfd</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+</div>
+</div>
+
+      </div>
+    </div>
+    <div class="clear">
+      <hr/>
+    </div>
+    <div id="footer">
+      <div class="xright">&#169;  
+          2012
+    
+          
+  
+
+  
+    
+            
+  
+    
+  </div>
+      <div class="clear">
+        <hr/>
+      </div>
+    </div>
+  </body>
+</html>

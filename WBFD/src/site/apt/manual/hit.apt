@@ -1,0 +1,12 @@
+
+Hits
+
+  In order to show those exercises more difficult to the student, every time a exercise is finished successfully it is marked with a <hit>. The formula for selecting a new exercise is:
+
+*---------------------------------------------------------------------------------------------*
+| Exercise = Random(Min(List_Exercises_Order_hit_DESC, Top10(List_Exercises_Order_hit_DESC))) |
+*---------------------------------------------------------------------------------------------*
+
+  It means, those exercise with lower marks (it is to say, more difficult) have more chances to appear in comparison to the ones found easier for the student. 
+  
+  You can reset the hits by exercise using the option <Hits> from the main menu.

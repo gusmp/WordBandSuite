@@ -1,0 +1,7 @@
+package org.gusmp.wbfmserver.security;
+
+import org.springframework.security.web.context.AbstractSecurityWebApplicationInitializer;
+
+public class SecurityWebInitializer extends AbstractSecurityWebApplicationInitializer {
+
+}

@@ -1,0 +1,36 @@
+
+Usage
+
+  Once WBFD is up and running you have the following menu options:
+  
+    * CAE: exercise for CAE students
+	
+    * CPE: exercise for CAE students
+	
+    * Import. This options allows you to add new exercises. See the {{{import.html} import chapter}} for further details.
+
+    * Hits. This option reset the hits of the exercises. See the {{{hit.html} hits chapter}} for more details.
+
+    * About. Shows the version of WBFD and the database last update.
+	
+* CAE menu
+
+  CAE menu has tree kind of exercises:
+  
+    * <<Phrasal verbs>>. Find the <verb> or <preposition> which fits in the sentence and make sense the prasal verb. To make a little bit easier you can ask for clues. However, if you ask for more than two clues the exercise will not be mark with a <hit>.
+	
+    * <<Word formation>>. Given a word, modify it to fit in the gaps. Any modification can be possible (prefixes and / or suffixes...)
+	
+    * <<Collocation>>. It is similar to <phrasal verb> exercise. In this time, any word can match in the gap and no clues are provided.
+
+* CPE menu
+
+  CPE menu has tree kind of exercises:
+  
+    * <<Phrasal verbs>>. Find the <verb> or <preposition> which fits in the sentence and make sense the prasal verb. To make a little bit easier you can ask for clues. However, if you ask for more than two clues the exercise will not be mark with a <hit>.
+	
+    * <<Word formation>>. Given a word, modify it to fit in the gaps. Any modification can be possible (prefixes and / or suffixes...)
+	
+    * <<Collocation>>. Given three sentences, you have to find the word which fits in all of them.
+	
+  Moreover, the cpe menu has the option <Hell mode>. When active, student will have to answer CPE and CAE exercises.

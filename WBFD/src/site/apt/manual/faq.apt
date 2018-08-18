@@ -1,0 +1,21 @@
+
+FAQ
+
+  1- Can I modify an exercise?
+
+  Yes and no. WBFD has not editor to modify the exercises. However, you can do directly in database if you know SQL. The database used by WBFD is Hsqldb and it is
+  no prorected by user /password. In the folder <common>: 
+  
+    * Execute <jar -jar hsqldb-2.2.9.jar>
+	
+	* In the new window as type select <HQSL Database Engine Standalone>
+	
+	* In the same window in url type <jdbc:hsqldb:file:../wbfd>. Press the button <OK>
+
+[../images/hsqldb.jpg]
+	
+  Now you can modify the database.
+  
+  <<NOTE:>> When finish type the query <SHUTDOWN> / menú <Command->SHUTDOWN> and press thr button <Execute SQL>. This close the connection with the database and consolidate the changes. Otherwise, changes can be lost.
+
+[../images/shutdown.jpg]

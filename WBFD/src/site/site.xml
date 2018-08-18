@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project xmlns="http://maven.apache.org/DECORATION/1.0.1"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/DECORATION/1.0.1 http://maven.apache.org/xsd/decoration-1.0.1.xsd"
+	name="WBFD">
+
+	<publishDate position="right" />
+
+	<version position="right" />
+
+	<body>
+
+
+		<menu name="User guide">
+			<item name="Installation" href="manual/installation.html" />
+			<item name="Run WBFD" href="manual/run.html" />
+			<item name="Usage" href="manual/usage.html" />
+			<item name="Import" href="manual/import.html" />
+			<item name="Hits" href="manual/hit.html" />
+			<item name="FAQ" href="manual/faq.html" />
+			<item name="Change log" href="manual/changelog.html" />
+		</menu>
+
+		<menu name="Developer">
+			<item name="Compile" href="development/compile.html" />
+		</menu>
+
+	</body>
+
+</project>

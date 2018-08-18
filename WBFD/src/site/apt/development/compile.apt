@@ -1,0 +1,20 @@
+
+Compile
+
+* Requirements
+
+  To compile you need:
+  
+   [[1]] Apache Maven 2 or better (2.2.1 and 3.04 have been tested)
+
+   [[2]] JDK 1.6 or better
+
+* Compile
+
+  If you want to modify or compile a new version of WBFD just do:
+
+    [[1]] Download the source code from {{{http://www.github.com/gusmp/wbfd}here}}
+   
+    [[2]] Compile with <mvn clean package -DskipTests=true>
+
+  The application is in the <target> folder

@@ -1,0 +1,110 @@
+
+Import
+
+  WBFD allows you to add new exercises. The general procedure is create a text file with a concrete structure and use the appropriate <Import> option from the 
+  main menu.
+ 
+  <<NOTE:>> The import option <<does check>> if the newer exercises are already in the database. In that case the exercise is discarded.
+  
+  However, create text files is a tedious process prone to error. Thus, it is recommened to create a spreadsheet with the given columns according to the exercise
+  and export it as a text file <separated by commas (;) or csv>. Next table show how to export in this format for several spreadsheets products.
+
+*------------+---------------------------------------------------------------------------------------------------------------------------------+
+| Excel 2010 | Start mrenu -> Save as -> As <type> select <CSV delimited by coma>                                                              |
+*------------+---------------------------------------------------------------------------------------------------------------------------------+
+| OpenOffice | File menu -> Save as -> As <type> select <Text CSV>. In the windows <Export text> select as <Field delimiter> the character ";" |
+*------------+---------------------------------------------------------------------------------------------------------------------------------+
+  
+* Import phrasal verbs
+
+  Create a spreadsheet with the following columns. Otherwise, if you opt for creating directly a text file, remember to delimiter each field with the <<character ";">>.
+  Below there is an example with the format ready to be imported.
+  
+*----------+-----------------------------------------------------+
+| Column 1 | Level. Can only take the values <CAE> or <CPE>      |
+*----------+-----------------------------------------------------+
+| Column 2 | Meaning / description of the phrasal verb           |
+*----------+-----------------------------------------------------+
+| Column 3 | Example                                             |
+*----------+-----------------------------------------------------+
+| Column 4 | Answer                                              |
+*----------+-----------------------------------------------------+
+| Column 5 | (optional) date of the exercise in forma dd/mm/yyyy |
+*----------+-----------------------------------------------------+
+
+  Example:
+  
+%{snippet|id=phrasalVerb|file=src\site\resources\code\import.txt}
+
+
+* Import word formation
+
+  Create a spreadsheet with the following columns. Otherwise, if you opt for creating directly a text file, remember to delimiter each field with the <<character ";">>.
+  Below there is an example with the format ready to be imported.
+
+*----------+-----------------------------------------------------+
+| Column 1 | Level. Can only take the values <CAE> or <CPE>      |
+*----------+-----------------------------------------------------+
+| Column 2 | Root word                                           |
+*----------+-----------------------------------------------------+
+| Column 3 | First sentence                                      |
+*----------+-----------------------------------------------------+
+| Column 4 | Answer first sentence                               |
+*----------+-----------------------------------------------------+
+| Column 5 | Second sencence                                     |
+*----------+-----------------------------------------------------+
+| Column 6 | Answer second sentence                              |
+*----------+-----------------------------------------------------+
+| Column 7 | Third sencence                                      |
+*----------+-----------------------------------------------------+
+| Column 8 | Answer third sentence                               |
+*----------+-----------------------------------------------------+
+| Column 9 | (optional) date of the exercise in forma dd/mm/yyyy |
+*----------+-----------------------------------------------------+
+
+  Example:
+  
+%{snippet|id=wordformation|file=src\site\resources\code\import.txt}
+
+* Import collocations
+
+  Create a spreadsheet with the following columns. Otherwise, if you opt for creating directly a text file, remember to delimiter each field with the <<character ";">>. Be careful because the number of columns is different for CAE / CPE levels.
+  Below there is an example with the format ready to be imported. 
+  
+
+*----------+----------------------------------------------------------------+
+| Column 1 | Level. Can only take the values <CAE> or <CPE>                 |
+*----------+----------------------------------------------------------------+
+| Column 2 | CAE level: Phrase                                              |
+|          | CPE level:	First sentence							            |
+*----------+----------------------------------------------------------------+
+| Column 3 | CAE level: Example                                             |
+|          | CPE level:	Second sencence							            |
+*----------+----------------------------------------------------------------+
+| Column 4 | CAE level: Answer                                              |
+|          | CPE level:	Third sencence							            |
+*----------+----------------------------------------------------------------+
+| Column 4 | CAE level: (optional) date of the exercise in forma dd/mm/yyyy |
+|          | CPE level:	Answer					          		            |
+*----------+----------------------------------------------------------------+
+| Column 5 | CAE level: no required                                         |
+|          | CPE level: (optional) date of the exercise in forma dd/mm/yyyy |
+*----------+----------------------------------------------------------------+
+
+  Example:
+ 
+%{snippet|id=collocation|file=src\site\resources\code\import.txt}
+ 
+* Merge outer DB
+
+  This option allows to combine your database with another wbfd database. If you want to merge follow these steps:
+ 
+    [[1]] In the third party wbfd installation, close wbfd
+
+    [[2]] Copy the files wbfd.data, wbfd.properties and wbfd.script in the compiter where it wants to be imported. <<DO NOT OVERRIDE>> your own files!
+
+    [[3]] Open wdbf and select the Merge option, <menu Import -\> Merge other DB>
+
+    [[4]] Select any of those files copied in the step 2
+
+  WBFD will add those exercises which are not currently in your database.	

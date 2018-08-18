@@ -1,0 +1,18 @@
+<!-- START SNIPPET: phrasalVerb -->
+# This line is a comment. Lines started with the symbol # will be omited
+CPE;to tell someone about something which is happening that others want to keep secret;The police were tipped .... about the bank robbery beforehand and so were able to catch the thieves in the act;off;1/11/2012
+CAE;to do something that has been threatened or instructed;Do you think they'll .... out their threat to go on strike?;carry;1/11/2012
+<!-- END SNIPPET: phrasalVerb -->
+
+
+<!-- START SNIPPET: wordformation -->
+# This line is a comment. Lines started with the symbol # will be omited
+CPE;REPRESENT;1. You can't really draw any conclusions with such an .... sample of people. They are not the right age or occupation for our purposes.;unrepresentative;2. The painting is said to be a .... of jealousy.;representation; 3. He works as a .... for a major cosmetics company.;representative
+CAE;WORK; 1. She's a real .... and even refuses to take a holiday.;workaholic; 2. As far as I'm concerned the new agreement is .... and stands no chance of succeeding.;unworkable; 3. The company are considering cutting the .... by 50 percent to save money.;workforce
+<!-- END SNIPPET: wordformation -->
+
+<!-- START SNIPPET: collocation -->
+# This line is a comment. Lines started with the symbol # will be omited
+CPE;1. There was a minute's silence to .... the anniversary of the tragedy.;2. Our predictions were completely wide of the .... and far too optimistic.;3. He was determined to leave his .... on the company and to be remembered as a great manager.;mark;6/11/2012
+CAE;Today's phrase: "a ........ in the ocean";The amount the Government is spending to ease unemployment is a .... in the ocean compared to what is needed.;drop;6/11/2012
+<!-- END SNIPPET: collocation -->

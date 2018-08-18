@@ -1,0 +1,2 @@
+REM mvn install:install-file -Dfile=.\common\org.eclipse.jface-3.8.0.v20120521-2329.jar -DgroupId=org.eclipse.jface -DartifactId=org.eclipse.jface -Dversion=3.8.0.v20120521-2329 -Dpackaging=jar
+mvn install:install-file -Dfile=.\libWin32\org.eclipse.swt.win32.win32.x86-3.8.jar -DgroupId=org.eclipse.swt -DartifactId=org.eclipse.swt.win32.win32.x86 -Dversion=3.8 -Dpackaging=jar

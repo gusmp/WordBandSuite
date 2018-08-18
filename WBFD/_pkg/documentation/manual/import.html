@@ -1,0 +1,266 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>WBFD - </title>
+    <style type="text/css" media="all">
+      @import url("../css/maven-base.css");
+      @import url("../css/maven-theme.css");
+      @import url("../css/site.css");
+    </style>
+    <link rel="stylesheet" href="../css/print.css" type="text/css" media="print" />
+        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+      </head>
+  <body class="composite">
+    <div id="banner">
+                    <span id="bannerLeft">
+    
+            Word Bank for Desktop
+    
+            </span>
+                    <div class="clear">
+        <hr/>
+      </div>
+    </div>
+    <div id="breadcrumbs">
+          
+  
+
+  
+    
+            
+  
+    
+              <div class="xright">      
+  
+
+  
+    
+            
+  
+    
+             Last Published: 2012-11-24
+              &nbsp;| Version: 0.0.2
+            </div>
+      <div class="clear">
+        <hr/>
+      </div>
+    </div>
+    <div id="leftColumn">
+      <div id="navcolumn">
+           
+  
+
+  
+    
+            
+  
+    
+                   <h5>User guide</h5>
+            <ul>
+              
+    <li class="none">
+                    <a href="../manual/installation.html">Installation</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../manual/run.html">Run WBFD</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../manual/usage.html">Usage</a>
+          </li>
+              
+    <li class="none">
+              <strong>Import</strong>
+        </li>
+              
+    <li class="none">
+                    <a href="../manual/hit.html">Hits</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../manual/faq.html">FAQ</a>
+          </li>
+              
+    <li class="none">
+                    <a href="../manual/changelog.html">Change log</a>
+          </li>
+          </ul>
+              <h5>Developer</h5>
+            <ul>
+              
+    <li class="none">
+                    <a href="../development/compile.html">Compile</a>
+          </li>
+          </ul>
+                                           <a href="http://maven.apache.org/" title="Built by Maven" class="poweredBy">
+            <img alt="Built by Maven" src="../images/logos/maven-feather.png"></img>
+          </a>
+                       
+  
+
+  
+    
+            
+  
+    
+        </div>
+    </div>
+    <div id="bodyColumn">
+      <div id="contentBox">
+        <div class="section"><h2>Import</h2>
+<p>WBFD allows you to add new exercises. The general procedure is create a text file with a concrete structure and use the appropriate <i>Import</i> option from the main menu.</p>
+<p><b>NOTE:</b> The import option <b>does check</b> if the newer exercises are already in the database. In that case the exercise is discarded.</p>
+<p>However, create text files is a tedious process prone to error. Thus, it is recommened to create a spreadsheet with the given columns according to the exercise and export it as a text file <i>separated by commas (;) or csv</i>. Next table show how to export in this format for several spreadsheets products.</p>
+<table class="bodyTable"><tbody><tr class="a"><td align="left">Excel 2010</td>
+<td align="left">Start mrenu -&gt; Save as -&gt; As <i>type</i> select <i>CSV delimited by coma</i></td>
+</tr>
+<tr class="b"><td align="left">OpenOffice</td>
+<td align="left">File menu -&gt; Save as -&gt; As <i>type</i> select <i>Text CSV</i>. In the windows <i>Export text</i> select as <i>Field delimiter</i> the character &quot;;&quot;</td>
+</tr>
+</tbody>
+</table>
+<div class="section"><h3>Import phrasal verbs</h3>
+<p>Create a spreadsheet with the following columns. Otherwise, if you opt for creating directly a text file, remember to delimiter each field with the <b>character &quot;;&quot;</b>. Below there is an example with the format ready to be imported.</p>
+<table class="bodyTable"><tbody><tr class="a"><td align="left">Column 1</td>
+<td align="left">Level. Can only take the values <i>CAE</i> or <i>CPE</i></td>
+</tr>
+<tr class="b"><td align="left">Column 2</td>
+<td align="left">Meaning / description of the phrasal verb</td>
+</tr>
+<tr class="a"><td align="left">Column 3</td>
+<td align="left">Example</td>
+</tr>
+<tr class="b"><td align="left">Column 4</td>
+<td align="left">Answer</td>
+</tr>
+<tr class="a"><td align="left">Column 5</td>
+<td align="left">(optional) date of the exercise in forma dd/mm/yyyy</td>
+</tr>
+</tbody>
+</table>
+<p>Example:</p>
+<div class="source"><pre># This line is a comment. Lines started with the symbol # will be omited
+CPE;to tell someone about something which is happening that others want to keep secret;The police were tipped .... about the bank robbery beforehand and so were able to catch the thieves in the act;off;1/11/2012
+CAE;to do something that has been threatened or instructed;Do you think they'll .... out their threat to go on strike?;carry;1/11/2012
+</pre>
+</div>
+</div>
+<div class="section"><h3>Import word formation</h3>
+<p>Create a spreadsheet with the following columns. Otherwise, if you opt for creating directly a text file, remember to delimiter each field with the <b>character &quot;;&quot;</b>. Below there is an example with the format ready to be imported.</p>
+<table class="bodyTable"><tbody><tr class="b"><td align="left">Column 1</td>
+<td align="left">Level. Can only take the values <i>CAE</i> or <i>CPE</i></td>
+</tr>
+<tr class="a"><td align="left">Column 2</td>
+<td align="left">Root word</td>
+</tr>
+<tr class="b"><td align="left">Column 3</td>
+<td align="left">First sentence</td>
+</tr>
+<tr class="a"><td align="left">Column 4</td>
+<td align="left">Answer first sentence</td>
+</tr>
+<tr class="b"><td align="left">Column 5</td>
+<td align="left">Second sencence</td>
+</tr>
+<tr class="a"><td align="left">Column 6</td>
+<td align="left">Answer second sentence</td>
+</tr>
+<tr class="b"><td align="left">Column 7</td>
+<td align="left">Third sencence</td>
+</tr>
+<tr class="a"><td align="left">Column 8</td>
+<td align="left">Answer third sentence</td>
+</tr>
+<tr class="b"><td align="left">Column 9</td>
+<td align="left">(optional) date of the exercise in forma dd/mm/yyyy</td>
+</tr>
+</tbody>
+</table>
+<p>Example:</p>
+<div class="source"><pre># This line is a comment. Lines started with the symbol # will be omited
+CPE;REPRESENT;1. You can't really draw any conclusions with such an .... sample of people. They are not the right age or occupation for our purposes.;unrepresentative;2. The painting is said to be a .... of jealousy.;representation; 3. He works as a .... for a major cosmetics company.;representative
+CAE;WORK; 1. She's a real .... and even refuses to take a holiday.;workaholic; 2. As far as I'm concerned the new agreement is .... and stands no chance of succeeding.;unworkable; 3. The company are considering cutting the .... by 50 percent to save money.;workforce
+</pre>
+</div>
+</div>
+<div class="section"><h3>Import collocations</h3>
+<p>Create a spreadsheet with the following columns. Otherwise, if you opt for creating directly a text file, remember to delimiter each field with the <b>character &quot;;&quot;</b>. Be careful because the number of columns is different for CAE / CPE levels. Below there is an example with the format ready to be imported. </p>
+<table class="bodyTable"><tbody><tr class="a"><td align="left">Column 1</td>
+<td align="left">Level. Can only take the values <i>CAE</i> or <i>CPE</i></td>
+</tr>
+<tr class="b"><td align="left">Column 2</td>
+<td align="left">CAE level: Phrase<br />
+CPE level: First sentence</td>
+</tr>
+<tr class="a"><td align="left">Column 3</td>
+<td align="left">CAE level: Example<br />
+CPE level: Second sencence</td>
+</tr>
+<tr class="b"><td align="left">Column 4</td>
+<td align="left">CAE level: Answer<br />
+CPE level: Third sencence</td>
+</tr>
+<tr class="a"><td align="left">Column 4</td>
+<td align="left">CAE level: (optional) date of the exercise in forma dd/mm/yyyy<br />
+CPE level: Answer</td>
+</tr>
+<tr class="b"><td align="left">Column 5</td>
+<td align="left">CAE level: no required<br />
+CPE level: (optional) date of the exercise in forma dd/mm/yyyy</td>
+</tr>
+</tbody>
+</table>
+<p>Example:</p>
+<div class="source"><pre># This line is a comment. Lines started with the symbol # will be omited
+CPE;1. There was a minute's silence to .... the anniversary of the tragedy.;2. Our predictions were completely wide of the .... and far too optimistic.;3. He was determined to leave his .... on the company and to be remembered as a great manager.;mark;6/11/2012
+CAE;Today's phrase: &quot;a ........ in the ocean&quot;;The amount the Government is spending to ease unemployment is a .... in the ocean compared to what is needed.;drop;6/11/2012
+</pre>
+</div>
+</div>
+<div class="section"><h3>Merge outer DB</h3>
+<p>This option allows to combine your database with another wbfd database. If you want to merge follow these steps:</p>
+<ol type="1"><li>In the third party wbfd installation, close wbfd</li>
+<li>Copy the files wbfd.data, wbfd.properties and wbfd.script in the compiter where it wants to be imported. <b>DO NOT OVERRIDE</b> your own files!</li>
+<li>Open wdbf and select the Merge option, <i>menu Import -&gt; Merge other DB</i></li>
+<li>Select any of those files copied in the step 2</li>
+</ol>
+<p>WBFD will add those exercises which are not currently in your database. </p>
+</div>
+</div>
+
+      </div>
+    </div>
+    <div class="clear">
+      <hr/>
+    </div>
+    <div id="footer">
+      <div class="xright">&#169;  
+          2012
+    
+          
+  
+
+  
+    
+            
+  
+    
+  </div>
+      <div class="clear">
+        <hr/>
+      </div>
+    </div>
+  </body>
+</html>
