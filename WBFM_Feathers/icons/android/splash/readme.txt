@@ -1,0 +1,1 @@
+Generated in: https://romannurik.github.io/AndroidAssetStudio/nine-patches.html#&sourceDensity=320&name=example
